@@ -1,34 +1,81 @@
 import React from 'react';
-import MapsHomeWorkIcon from '@mui/icons-material/MapsHomeWork';
 import './slidebar.scss';
 
-const Slidebar = () => {
+const Sidebar = () => {
     return (
-        <div className="container">
-            <div className="sidebar">
-                <h1 className='text-center logo'>Logo</h1>
-                <ul className="sidebar-menu">
-                    <li className='active'><a href="/">Dashboard</a></li>
-                    <li><a href="/">Dashboard</a></li>
-                    <li><a href="/">Users</a></li>
-                    <li><a href="/">Products</a></li>
-                    <li><a href="/">Orders</a></li>
-                    <li><a href="/">Delivery</a></li>
-                    <li><a href="/">Stats</a></li>
-                    <li><a href="/">Notifications</a></li>
-                    <li><a href="/">System Health</a></li>
-                    <li><a href="/">Log</a></li>
-                    <li><a href="/">Settings</a></li>
-                    <li><a href="/">Profile</a></li>
-                    <li><a href="/">Logout</a></li>
-                    <li><a href="/">Log</a></li>
-                    <li><a href="/">Settings</a></li>
-                    <li><a href="/">Profile</a></li>
-                    <li><a href="/">Logout</a></li>
-                </ul>
+        <div className="sidebar">
+            <h2 className='logo'>adminpanel</h2>
+            <hr className='divider'></hr>
+            <div className="sidebar-menu">
+                <div className='menu-item'>
+                    <i className="material-icons">dashboard</i>
+                    <span>Dashboard</span>
+                </div>
+                <div className='menu-section'>
+                    <div className='menu-header'>User Lists</div>
+                    <div className="menu-item">
+                        <i className="material-icons">person</i>
+                        <span>Users</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">shopping_cart</i>
+                        <span>Products</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">shopping_basket</i>
+                        <span>Orders</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">local_shipping</i>
+                        <span>Delivery</span>
+                    </div>
+                </div>
+                <div className='menu-section'>
+
+                    <div className='menu-header'>Trending</div>
+                    <div className="menu-item">
+                        <i className="material-icons">trending_up</i>
+                        <span>Stats</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">notifications</i>
+                        <span>Notifications</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">settings_applications</i>
+                        <span>System Health</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">assignment</i>
+                        <span>Log</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">settings</i>
+                        <span>Settings</span>
+                    </div>
+                </div>
+                <div className='menu-section'>
+                    <div className='menu-header'>Settings</div>
+                    <div className="menu-item">
+                        <i className="material-icons">person</i>
+                        <span>Profile</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">assignment</i>
+                        <span>Log</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">settings</i>
+                        <span>Settings</span>
+                    </div>
+                    <div className="menu-item">
+                        <i className="material-icons">exit_to_app</i>
+                        <span>Logout</span>
+                    </div>
+                </div>
             </div>
         </div>
     );
-};
+}
 
-export default Slidebar;
+export default Sidebar;

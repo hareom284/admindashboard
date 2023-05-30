@@ -1,21 +1,22 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.text-center 
+:root 
 {
-    text-align: center;
+   --sliderbar-bg-color:#6369D1;
+   --hover-bg-color:#6544e1;
+   --hover-text-color:#000;
+   --text-color:#d3d1d1;
 }
 
-.logo 
+.divider
 {
-    font-style: italic;
-   
+    background-color: black;
+    padding: 0 10px 0 10px;
+    width: 80%;
 }
 
-.p-3
+.d-flex 
 {
-    padding: 0.1rem;
+    display: flex;
+    align-items: center;
 }
+
+
