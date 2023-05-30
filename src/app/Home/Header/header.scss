@@ -1,0 +1,19 @@
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-items {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header-item {
+    background-color: rgb(131, 79, 79);
+    height: fit-content;
+  }
+  
+  .search-icon{
+    margin-left: -24px;
+  }
